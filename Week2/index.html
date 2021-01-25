@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+	<title>Опросник для котиков</title>
+</head>
+
+<body>
+	<main>
+		<h1>Пройдите опрос для вашего котика &copy;</h1>
+		<p>Это очень поможет вашему котику, правда спасибо он вам не скажет, только "Мяу"</p>
+		<form>
+			<h4>&#9998;Имя котика:</h4> <!-- Имя кота -->
+			<input type="text" name="firstNameCat" />
+			<h4>&#9998;Имя владельца:</h4> <!-- Имя владельца -->
+			<input type="text" name="firstNameOwner" />
+			<h4>&#9998;Контакты владельца:</h4> <!-- Контакты -->
+			<input type="tel" name="phoneNumber" />
+			<h4>Порода питомца:</h4> <!-- Порода -->
+			<select name="typeCat">
+				<option value="first option">Уличный котик</option>
+				<option value="second option">Абиссинская</option>
+				<option value="third option">Мейн кун</option>
+			</select>
+			<h4>Питание:</h4> <!-- Питание -->
+			<input type="checkbox" name="food" value="1" checked>
+			Сухой корм <br>
+			<input type="checkbox" name="food" value="2">
+			Влажный корм <br>
+			<input type="checkbox" name="food" value="3">
+			Натуральный корм <br>
+			<input type="checkbox" name="food" value="3">
+			Рыбка&#9786; <br>
+			<h4>Пол:</h4> <!-- Пол -->
+			<input type="radio" name="sex" value="1">
+			Мальчик <br>
+			<input type="radio" name="sex" value="2">
+			Девочка <br>
+			<h4>Комментарий</h4> <!-- Комментарий -->
+			<textarea rows="8" cols="80">Мой котик умеет...</textarea>
+			<br>
+			<h4>Загрузите фото</h4>
+			<input type="file" name="image">
+			<br>
+			<input type="submit" name="done" value="Сохранить">
+		</form>
+	</main>
+</body>
+
+</html>
